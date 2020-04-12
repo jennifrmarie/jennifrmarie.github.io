@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/jennifrmarie/jennifrmarie.github.io/static/css/main.1bd35226.chunk.css",
-    "main.js": "/jennifrmarie/jennifrmarie.github.io/static/js/main.ac5bdb1a.chunk.js",
-    "main.js.map": "/jennifrmarie/jennifrmarie.github.io/static/js/main.ac5bdb1a.chunk.js.map",
-    "runtime-main.js": "/jennifrmarie/jennifrmarie.github.io/static/js/runtime-main.8419dd4d.js",
-    "runtime-main.js.map": "/jennifrmarie/jennifrmarie.github.io/static/js/runtime-main.8419dd4d.js.map",
-    "static/js/2.78250457.chunk.js": "/jennifrmarie/jennifrmarie.github.io/static/js/2.78250457.chunk.js",
-    "static/js/2.78250457.chunk.js.map": "/jennifrmarie/jennifrmarie.github.io/static/js/2.78250457.chunk.js.map",
-    "index.html": "/jennifrmarie/jennifrmarie.github.io/index.html",
-    "precache-manifest.bd75a5a31f0a1c362247cab7e30c3c38.js": "/jennifrmarie/jennifrmarie.github.io/precache-manifest.bd75a5a31f0a1c362247cab7e30c3c38.js",
-    "service-worker.js": "/jennifrmarie/jennifrmarie.github.io/service-worker.js",
-    "static/css/main.1bd35226.chunk.css.map": "/jennifrmarie/jennifrmarie.github.io/static/css/main.1bd35226.chunk.css.map",
-    "static/js/2.78250457.chunk.js.LICENSE.txt": "/jennifrmarie/jennifrmarie.github.io/static/js/2.78250457.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.1bd35226.chunk.css",
+    "main.js": "/static/js/main.ac5bdb1a.chunk.js",
+    "main.js.map": "/static/js/main.ac5bdb1a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d8445b1d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d8445b1d.js.map",
+    "static/js/2.78250457.chunk.js": "/static/js/2.78250457.chunk.js",
+    "static/js/2.78250457.chunk.js.map": "/static/js/2.78250457.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4c90918b20c9a7fd563338c52bbc14d2.js": "/precache-manifest.4c90918b20c9a7fd563338c52bbc14d2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1bd35226.chunk.css.map": "/static/css/main.1bd35226.chunk.css.map",
+    "static/js/2.78250457.chunk.js.LICENSE.txt": "/static/js/2.78250457.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8419dd4d.js",
+    "static/js/runtime-main.d8445b1d.js",
     "static/js/2.78250457.chunk.js",
     "static/css/main.1bd35226.chunk.css",
     "static/js/main.ac5bdb1a.chunk.js"
