@@ -12,7 +12,7 @@ import { BrowserRouter } from 'react-router-dom';
 library.add(fab, faEllipsisH, faChevronRight, faEnvelopeOpenText , faGreaterThan, faLessThan, faAngleLeft, faSlash, faAngleRight, faArrowLeft, faArrowRight)
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
