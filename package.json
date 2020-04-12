@@ -34,7 +34,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/jennifrmarie/jennifrmarie.github.io",
+  "homepage": "https://jennifrmarie.github.io",
   "eslintConfig": {
     "extends": "react-app"
   },
