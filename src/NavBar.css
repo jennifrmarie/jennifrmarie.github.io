@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+small {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-align: center;
+  padding: 50px 0;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -1px;
+  color: inherit;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 300;
+  color: inherit;
+  padding: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+section {
+  height: 100vh;
+}
+.nav__menu {
+  padding-inline-start: 0%;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 5px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+nav .nav__menu {
+  list-style: none;
+  text-align: center;
+}
+nav .nav__menu li {
+  display: inline-block;
+}
+nav .nav__menu li a {
+  font-size: 20px;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav .nav__menu li a,
+nav .nav__menu li a:after,
+nav .nav__menu li a:before {
+  transition: all .5s;
+}
+nav .nav__menu li a:hover {
+  color: #555;
+}
+
+nav.stroke .nav__menu li a,
+nav.fill .nav__menu li a {
+  position: relative;
+}
+nav.stroke .nav__menu li a:after,
+nav.fill .nav__menu li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke .nav__menu li a:hover:after {
+  width: 100%;
+}
+
+nav.fill .nav__menu li a {
+  transition: all 2s;
+}
+
+nav.fill .nav__menu li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill .nav__menu li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill .nav__menu li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #333;
+  }
+}
+
+/* Portrait and Landscape iphoneX */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    nav .nav__menu li a {
+      font-size: 15px;
+      padding: 10px;
+    }
+}
+
+/* Portrait and Landscape iphone 6, 7, 8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    nav .nav__menu li a {
+      font-size: 15px;
+      padding: 10px;
+    }
+}

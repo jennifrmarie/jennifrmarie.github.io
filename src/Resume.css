@@ -1,0 +1,12 @@
+.resume_img {
+    width: calc(100% + -45vw);
+    height: calc(100% + 5vw);
+    display: flex;
+    align-self: center;
+    margin-top: 150px;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+}

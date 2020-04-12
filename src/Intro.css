@@ -1,0 +1,103 @@
+.intro__section {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.name__section {
+    margin-top: 20px;
+    margin-left: calc(-50px + 10vw);
+    position: absolute;
+    background-image: url('https://libreshot.com/wp-content/uploads/2016/09/binary-code-861x574.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(60% + 20px);
+    /* width: 50%; */
+    height: calc(20% + 1vw);
+    
+}
+
+
+.aboutme__section {
+    /* margin-right: 100px; */
+    /* margin-left: calc(300px - 100px); */
+    position: absolute;
+    margin-right: 0;
+    margin-top: 50px;
+    z-index: 100;
+    margin-bottom: 20px;
+    left: calc(15% + 10vw);
+    right: 50%;
+    width: 30%;
+    width: calc(40% + 1vw);
+    height: calc(10% + 1vh);
+    padding: 50px;
+    top: calc(180px + 1vw);
+    text-align: right;
+    font-size: calc(10px + 1vw);
+}
+
+.icon_left {
+    position: relative;
+    top: 400px;
+}
+.icon_right {
+    position: relative;
+    top: 400px;
+    right: 0;
+    /* z-index: -100; */
+    left: calc(100% - 20vw);
+    /* width: 100%; */
+}
+
+.aboutme {
+    /* position: absolute; */
+
+    opacity: 60%;
+    letter-spacing: .1em;
+    color: black;
+    background-color: white;
+    /* right: -30px; */
+    line-height: 2em;
+    /* padding: 20px; */
+    width: 60%;
+    height: 100%;
+}
+
+h4 {
+    /* background-color: white; */
+    color: black;
+    font-size: calc(15px + 1vw);
+    text-align: right;
+    margin-left: 200px;
+    background-color: rgb(180, 177, 177);
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    right: calc(-450px + 450px);
+    letter-spacing: calc(.5em - .05em);
+}
+
+.name__header {
+    /* width: 30%; */
+    opacity: 70%;
+    text-align: center;
+    /* padding-left: 20px; */
+    align-content: center;
+    height: calc(10% + 1vw);
+    right: -200px;
+    background-color: white;
+    position: relative;
+    font-size: calc(30px + 1vw);
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 500px; */
+    clear: both;
+    /* background-color: black; */
+    color: black;
+}
+
+
+
