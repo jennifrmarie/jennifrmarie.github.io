@@ -7,14 +7,14 @@ import {
   faEllipsisH, faAngleLeft, faChevronRight, faEnvelopeOpenText, faGreaterThan, faLessThan, faAngleRight, faSlash, faArrowLeft, faArrowRight,
 } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 library.add(fab, faEllipsisH, faChevronRight, faEnvelopeOpenText , faGreaterThan, faLessThan, faAngleLeft, faSlash, faAngleRight, faArrowLeft, faArrowRight)
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
