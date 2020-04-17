@@ -52,7 +52,7 @@ nav .nav__menu {
 nav .nav__menu li {
   display: inline-block;
 }
-nav .nav__menu li a {
+nav .nav__menu li .a {
   font-size: 20px;
   display: block;
   padding: 15px;
@@ -62,21 +62,21 @@ nav .nav__menu li a {
   text-transform: uppercase;
   margin: 0 10px;
 }
-nav .nav__menu li a,
-nav .nav__menu li a:after,
-nav .nav__menu li a:before {
+nav .nav__menu li .a,
+nav .nav__menu li .a:after,
+nav .nav__menu li .a:before {
   transition: all .5s;
 }
-nav .nav__menu li a:hover {
+nav .nav__menu li .a:hover {
   color: #555;
 }
 
-nav.stroke .nav__menu li a,
-nav.fill .nav__menu li a {
+nav.stroke .nav__menu li .a,
+nav.fill .nav__menu li .a {
   position: relative;
 }
-nav.stroke .nav__menu li a:after,
-nav.fill .nav__menu li a:after {
+nav.stroke .nav__menu li .a:after,
+nav.fill .nav__menu li .a:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -88,25 +88,25 @@ nav.fill .nav__menu li a:after {
   background: #aaa;
   height: 1px;
 }
-nav.stroke .nav__menu li a:hover:after {
+nav.stroke .nav__menu li .a:hover:after {
   width: 100%;
 }
 
-nav.fill .nav__menu li a {
+nav.fill .nav__menu li .a {
   transition: all 2s;
 }
 
-nav.fill .nav__menu li a:after {
+nav.fill .nav__menu li .a:after {
   text-align: left;
   content: '.';
   margin: 0;
   opacity: 0;
 }
-nav.fill .nav__menu li a:hover {
+nav.fill .nav__menu li .a:hover {
   color: #fff;
   z-index: 1;
 }
-nav.fill .nav__menu li a:hover:after {
+nav.fill .nav__menu li .a:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
   -webkit-animation: fill 1s forwards;
@@ -136,7 +136,7 @@ nav.fill .nav__menu li a:hover:after {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-    nav .nav__menu li a {
+    nav .nav__menu li .a {
       font-size: 15px;
       padding: 10px;
     }
@@ -147,7 +147,7 @@ nav.fill .nav__menu li a:hover:after {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-    nav .nav__menu li a {
+    nav .nav__menu li .a {
       font-size: 15px;
       padding: 10px;
     }
