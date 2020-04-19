@@ -120,3 +120,30 @@ h3 {
     }
   }
 
+  /* iphone 5 */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+{
+  .project_1, .project_2, .project_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+  .project1_sc, .project2_sc, .project3_sc {
+    width: 70%;
+    height: 10%;
+    order: 2
+  }
+  .project1_desc, .project2_desc, .project3_desc {
+    width: 70%;
+    height: 10%;
+    order: 1;
+    font-size: 15px;
+  }
+  #project_stack {
+    font-size: 15px;
+  }
+
+}
+

@@ -1,12 +1,29 @@
 .resume_img {
-    width: calc(100% + -45vw);
-    height: calc(100% + 5vw);
+    width: calc(60% - 10vw);
+    height: calc(70% + 10vw);
     display: flex;
-    align-self: center;
-    margin-top: 150px;
+    margin-top: 50px;
+    /* align-self: center; */
 }
 
 .resume {
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .resume_img {
+        width: 300px;
+        height: 500px;
+    }
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) {
+      .resume_img {
+          width: 400px;
+          height: 600px;
+      }
+  }
+
+

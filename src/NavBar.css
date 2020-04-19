@@ -3,6 +3,12 @@ body {
   padding: 0;
   margin: 0;
 }
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 
 small {
   font-size: 12px;
@@ -137,7 +143,7 @@ nav.fill .nav__menu li .a:hover:after {
   and (-webkit-min-device-pixel-ratio: 3) { 
 
     nav .nav__menu li .a {
-      font-size: 15px;
+      font-size: 10px;
       padding: 10px;
     }
 }
@@ -149,6 +155,18 @@ nav.fill .nav__menu li .a:hover:after {
   and (-webkit-min-device-pixel-ratio: 2) { 
     nav .nav__menu li .a {
       font-size: 15px;
-      padding: 10px;
+      padding: 7px;
     }
 }
+
+/* iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+{
+  nav .nav__menu li .a {
+    font-size: 15px;
+    padding: 5px;
+  }
+  
+
+}
+

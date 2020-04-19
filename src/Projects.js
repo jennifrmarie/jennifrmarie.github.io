@@ -14,7 +14,7 @@ export default class Projects extends Component {
           requests to the RESTful API. 
           <div id="project_stack">Stack: Javascript, React, Node, Express, PostgreSQL, CSS.</div>
           <div id="live_link">
-          <a target="_blank" href="http://reppysetgo.herokuapp.com">Live App</a> {' '}
+          <a target="_blank" rel="noopener noreferrer" href="http://reppysetgo.herokuapp.com">Live App</a> {' '}
           <span className="github_link" ><a rel="noopener noreferrer" target="_blank" href="https://www.github.com/jennifrmarie/reppysetgo">GitHub</a></span>
           </div>
           </p>
