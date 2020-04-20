@@ -60,15 +60,15 @@ export default class Contact extends Component {
                 </form>
                 <ul className="contact_list">
                     <div className="">
-                        <li><FontAwesomeIcon size="2x" icon={['fab', 'github']} ></FontAwesomeIcon></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.github.com/jennifrmarie"><FontAwesomeIcon size="2x" icon={['fab', 'github']}>GitHub</FontAwesomeIcon></a></li>
                         <span>GitHub</span>
                     </div>
                     <div>
-                        <li><FontAwesomeIcon size="2x" icon={['fab', "linkedin-in"]}></FontAwesomeIcon></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href= "https://www.linkedin.com/in/jennifersparkscodes"><FontAwesomeIcon size="2x" icon={['fab', "linkedin-in"]}></FontAwesomeIcon></a></li>
                         <span>Linkedin</span>
                     </div>
                     <div>
-                        <li><FontAwesomeIcon size="2x" icon="envelope-open-text" ></FontAwesomeIcon></li>
+                        <li><a href= "mailto: jennifersparkscodes@gmail.com"><FontAwesomeIcon size="2x" icon="envelope-open-text" ></FontAwesomeIcon></a></li>
                         <span>Email</span>
                     </div>
                 </ul>

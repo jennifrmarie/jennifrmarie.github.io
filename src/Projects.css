@@ -1,7 +1,7 @@
 .project_1, .project_2, .project_3 {
   display: flex;
   width: 100%;
-  height: 300px;
+  height: 350px;
   margin-top: 25px;
 }
 
@@ -14,7 +14,7 @@
   width: 33.3%;
   border: 1px solid white;
   height: 300px;
-  font-size: calc(15px + .2em);
+  font-size: calc(15px + .1em);
   line-height: 1.5em;
   display: flex;
   padding: 0px 5px 0px 5px;
@@ -96,12 +96,15 @@ h3 {
   @media only screen 
   and (min-device-width: 669px) 
   and (max-device-width: 1144px) {
+    #project_stack {
+      font-size: 15px;
+    }
     #project_header {
       font-size: 20px;
     }
 
     .project1_desc, .project2_desc, .project3_desc {
-      font-size: 15px;
+      font-size: 13px;
     }
     .project_1, .project_2, .project_3 {
       display: flex;

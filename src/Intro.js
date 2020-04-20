@@ -13,7 +13,7 @@ export default class Intro extends Component {
                 
                 <div className="aboutme__section">
                     <span className="aboutme">
-                    I'm a recent graduate out of Atlanta, Georgia. 
+                    I'm a recent graduate from Atlanta, Georgia. 
                     I have a passion for the user experience and
                     interface, I love connecting the front to the back end, 
                     and I thrive when I'm working on a team of other rad developers.
