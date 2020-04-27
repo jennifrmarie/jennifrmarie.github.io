@@ -80,6 +80,10 @@ h3 {
       align-items: center;
     }
 
+    #project_header {
+      margin-bottom: 5px;
+    }
+
     .project1_sc, .project2_sc, .project3_sc {
       width: 70%;
       height: 10%;
@@ -146,6 +150,10 @@ h3 {
   }
   #project_stack {
     font-size: 15px;
+  }
+
+  #project_header {
+    margin-bottom: 5px;
   }
 
 }
