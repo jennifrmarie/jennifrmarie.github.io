@@ -7,6 +7,7 @@ export default class NavBar extends Component {
         return (
         <nav className="fill">
             <ul className="nav__menu">
+                <li><Link className="a" to="/">home</Link></li>
                 <li><Link className="a" to="/contact">contact</Link></li>
                 <li><Link className="a" to="/resume">resume</Link></li>
                 <li><Link className="a" to="/projects">projects</Link></li>

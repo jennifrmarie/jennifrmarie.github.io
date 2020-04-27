@@ -20,9 +20,6 @@ export default class Contact extends Component {
             to_name: email,
             message_html: message,
         }
-        console.log(name)
-        console.log(email)
-        console.log(message)
         emailjs.send('gmail', 'profile_template', templateParams, 'user_EvDSCV5c0YpwSjKoPcYon')
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);

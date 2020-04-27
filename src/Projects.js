@@ -22,8 +22,8 @@ export default class Projects extends Component {
         </section>
         <section className="project_2">
           <img className="project2_sc" src="https://i.imgur.com/H42JHVk.png" alt="screenshot of QuarenTV" width="500" height="300" />
-          <p className="project2_desc"><h3 id="project_header">QuarenTV</h3>Full-stack app where bingers and casual watchers alike can make a list
-          of what they want to watch which is then stored into a PostgreSQL database. The hard-working user can earn points and badges for checking each item off of the list.
+          <p className="project2_desc"><h3 id="project_header">QuarenTV</h3>Full-stack app where TV bingers can make a list
+          of what they want to watch during their quarentine. The user can earn points and badges for checking each item off of the list.
           The React client utilizes a RESTful API to make requests.
           <div id="project_stack">Stack: Javascript, React, Node, Express, PostgreSQL, CSS.</div>
           <div id="live_link">
