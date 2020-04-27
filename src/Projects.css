@@ -153,10 +153,11 @@ h3 {
   }
   #project_stack {
     font-size: 15px;
+    margin-bottom: 5px;
   }
 
   #project_header {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
 }
