@@ -96,8 +96,8 @@ h3 {
       order: 1;
       border: none;
     }
-    #project_stack {
-      margin-bottom: 5px;
+    #live_link {
+      margin-left: 5px;
     }
   }
   @media only screen 
@@ -158,6 +158,10 @@ h3 {
 
   #project_header {
     margin-bottom: 15px;
+  }
+
+  #live_link {
+    margin-left: 5px;
   }
 
 }
