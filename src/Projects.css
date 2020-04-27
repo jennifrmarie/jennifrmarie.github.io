@@ -81,7 +81,7 @@ h3 {
     }
 
     #project_header {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
 
     .project1_sc, .project2_sc, .project3_sc {
@@ -95,6 +95,9 @@ h3 {
       height: 10%;
       order: 1;
       border: none;
+    }
+    #project_stack {
+      margin-bottom: 5px;
     }
   }
   @media only screen 
